@@ -1,0 +1,16 @@
+Automated Test Cases:
+1. Check that Reset button clears input fields
+2. Check that valid user and password can log-in sucessfully
+3. Check that user page displays the correct user name **** NOTE: This test case is intentionally failed in current tester)
+4. Check successful "logout" of user from user page
+5. Check that invalid user and invalid password results in login error page
+6. Check that we can return to login page from error page
+7. Check that valid user and invalid password results in login error page
+
+Can be automated (but not yet):
+1. Check web elements of each page, including attributes (ex. Enabled, Displayed)
+
+Manual Test Cases:
+1. Checking of error case when Login cannot connect to the DB.
+--- May be possible to automate using external tools 
+(e.g. Jenkins job can setup the required preconditions and additional test suites can be added).
